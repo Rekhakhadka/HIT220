@@ -1,0 +1,25 @@
+
+#Question 1
+
+# create an empty list called locations_list
+locations_list = []
+# here add locations as needed, I added 4 locations 
+    locations_list.append({ "point": 1, 'type': "headwater", "latitude": 70, "longitude": 100}),
+    locations_list.append({ "point": 2, 'type': "junction",  "latitude": 230, "longitude": 190}),
+    locations_list.append({ "point": 3, 'type': "headwater", "latitude": 140, "longitude": 265}),
+    # from the dataset "Assessment3.csv" which I will attach to this code we can add remaining location when needed 
+    locations_list.append({ "point": 58, 'type': "junction", "latitude": 380, "longitude": 220}),
+
+# When accessing data for a specific location we can 
+print(locations_list[0]["point"], locations_list[0]["latitude"], locations_list[0]["longitude"], locations_list[0]["type"])
+
+# Iterating over all locations_list
+for point in locations_lists:
+    print(point["point"], ":", point["latitude"], ",", point["longitude"], ",", point["type"])
+
+    
+# here, the output will come as:  1 70 100 headwater     ( the first line of output is first location and after that the output comes more forwardly.)
+#                                 1: 70, 100, headwater 
+#                                 2: 230, 190, junction
+#                                 3: 140, 265, headwater
+#                                 58: 380, 220, junction
