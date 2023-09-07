@@ -1,5 +1,6 @@
 # Question 1
-
+# Load the dataset
+data = pd.read_csv('Assessment3.csv') #read the csv data you need here instead of Assessment3,csv
 # data for location of each point with their type of location
 locations = [
     { "point": 1, 'type': "headwater", "latitude": 70, "longitude": 100},
