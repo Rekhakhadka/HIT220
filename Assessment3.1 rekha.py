@@ -1,4 +1,5 @@
 # Question 1
+import pandas as pd # import packages as per need 
 # Load the dataset
 data = pd.read_csv('Assessment3.csv') #read the csv data you need here instead of Assessment3,csv
 # data for location of each point with their type of location
